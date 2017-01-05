@@ -27,24 +27,65 @@
       /* Main marketing message and sign up button */
       .jumbotron {
         margin: 30px 20px;
+        line-height: 2;
         text-align: center;
       }
       .jumbotron h1 {
         font-size: 40px;
-        line-height: 1;
+        line-height: 2;
+      }
+      .jumbotron h1red {
+        font-size: 50px;
+        color: #ff0000;
+        line-height: 1.5;
       }
       .jumbotron h2 {
         font-size: 25px;
         font-weight: 900;
-        line-height: 1;
+        line-height: 1.5;
+        display: inline;
+      }
+      .jumbotron h2red {
+        font-size: 25px;
+        color: #ff0000;
+        font-weight: 900;
+        line-height: 1.5;
+        display: inline;
+      }
+      .jumbotron h2a {
+        font-size: 25px;
+        color: #ee7600;
+        font-weight: 900;
+        line-height: 1.5;
+        display: inline;
+      }
+      .jumbotron h3big {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 900;
       }
       .jumbotron h3 {
         font-size: 15px;
-        line-height: 1;
+        line-height: 1.5;
+      }
+      .jumbotron h3a {
+        font-size: 15px;
+        line-height: 2;
+        font-family: serif;
+        font-weight: 900;
+        display: inline;
+      }
+      .jumbotron h3b {
+        font-size: 15px;
+        color: #ee7600;
+        line-height: 2;
+        font-family: serif;
+        font-weight: 900;
+        display: inline;
       }
       .jumbotron h4 {
         font-size: 12px;
-        line-height: 1;
+        line-height: 1.5;
         text-align: left;
       }
       .jumbotron .btn {
@@ -71,18 +112,16 @@
       <div class="row-fluid">
         <div class="span6 offset3">
           <div class="jumbotron">
-              <h3>Wedding Invitation</h3>
-              <h2>정홍규
-                <i class="icon-heart"></i> 
-                이해림<br>
-                결혼합니다</h2>
+              <h3big style="font-family: Times">Wedding Invitation</h3big><br><br>
+              <h2>정홍규</h2> <h2red>&hearts;</h2red> <h2>이해림</h2><br>
+              <h2>결혼합니다</h2>
           </div>          
           <img src="./assets/photo/1.jpg" alt="1"> 
           <div class="jumbotron">
-            <h2>정한식 &middot; 차윤선의 차남<br>
-            이철의 &middot; 노선자의 장녀<h2><br>
+            <h2>정한식 &middot; 차윤선의 차남</h2> <h2a>홍규</h2a><br>
+            <h2>이철의 &middot; 노선자의 장녀</h2> <h2a>해림</h2a><br><br>
 
-            <h3>2017. 2. 4. SAT 1:00 PM<h3>
+            <h2 style="font-family: Times">2017. 2. 4. SAT 1:00 PM<h2><br>
             <h2>신라호텔 다이너스티홀</h2>
           </div>
         </div>
@@ -92,11 +131,11 @@
         <div class="span6 offset3">
           <img src="./assets/photo/2.jpg" alt="1"> 
           <div class="jumbotron">
-            <h3>곁에 있을 때 가장 나다운 모습이 되게 하는 한 사람<br>
-            꿈을 펼칠 수 있도록 서로에게 날개가 되어줄 한 사람<br>
-            그 사람과 삶의 여행을 함께 떠나려 합니다.<br>
-            저희 여행의 출발점에 여러분을 초대하오니<br>
-            오셔서 많이 축복해 주시면 큰 기쁨이겠습니다.</h3>
+            <h3a>곁에 있을 때 가장 <h3b>나다운</h3b> 모습이 되게 하는 한 사람<br>
+            꿈을 펼칠 수 있도록 서로에게 <h3b>날개</h3b>가 되어줄 한 사람<br>
+            그 사람과 삶의 <h3b>여행</h3b>을 함께 떠나려 합니다.<br>
+            저희 여행의 출발점에 <h3b>여러분</h3b>을 초대하오니<br>
+            오셔서 많이 축복해 주시면 큰 <h3b>기쁨</h3b>이겠습니다.</h3a>
           </div>
         </div>
       </div>
@@ -104,19 +143,19 @@
       <div class="row-fluid">
         <div class="span6 offset3">
           <img src="./assets/photo/3.jpg" alt="1"> 
-          <div class="jumbotron">
-            <h4><i class="icon-stop"></i>지하철<br>
-            지하철3호선 동대입구역 5번출구<br>
-            <i class="icon-stop"></i>자가용<br>
-            분당방면 : 한남대교→장충단길→호텔신라 후문→서울신라호텔<br>
-            강남방면 : 동호대교→장충체육관 앞 사거리에서 비보호 좌회전 → 서울신라호텔<br> 
-            용산방면 : 남산2호터널 통과 후 좌회전→호텔신라 후문→서울신라호텔<br>
-            <i class="icon-stop"></i>버스(장충체육관 앞 하차)<br>
-            노선번호 : 144, 301, 407, 7212<br>
+          <div class="jumbotron" align="left" style="text-align: left">
+            <h3>&#10048 지하철</h3>
+            <h4>지하철3호선 동대입구역 5번출구</h4>
+            <h3>&#10048 자가용</h3>
+            <h4>분당방면 : 한남대교→장충단길→호텔신라 후문→서울신라호텔<br>
+            강남방면 : 동호대교→장충체육관 앞 사거리에서 비보호 좌회전→서울신라호텔<br> 
+            용산방면 : 남산2호터널 통과 후 좌회전→호텔신라 후문→서울신라호텔</h4>
+            <h3>&#10048 버스(장충체육관 앞 하차)</h3>
+            <h4>노선번호 : 144, 301, 407, 7212<br>
             서울신라호텔 정문(기와문)에서 호텔 로비와 면세점까지 무료 순환버스 운행합니다.<br>
             운행코스 : 서울신라호텔 정문(기와문)→호텔 1층 로비→서울신라호텔<br>
-            운행시간 : 10:00 ~ 20:00<br>
-            <i class="icon-stop"></i>무료 셔틀버스 운행 동대문․ 명동․ 이태원 쇼핑타운 行</h4>
+            운행시간 : 10:00 ~ 20:00</h4>
+            <h3>&#10048 무료 셔틀버스 운행 동대문․ 명동․ 이태원 쇼핑타운 行</h3>
           </div>
         </div>
       </div>
@@ -125,9 +164,9 @@
         <div class="span6 offset3">
           <img src="./assets/photo/4.jpg" alt="1"> 
           <div class="jumbotron">
-            <h2><오시는 길></h2>
+            <h2>< 오시는 길 ></h2>
             <img src="./assets/photo/hotelmap.jpg" alt="1">
-            <h3>신라호텔 TEL 02-2233-3131<br>
+            <h3>신라호텔 &#9742 02-2233-3131<br>
               서울 중구 동호로 249 (서울 중구 장충동 2가 202)</h3>
           </div>
         </div>
@@ -136,13 +175,13 @@
       <div class="row-fluid">
         <div class="span6 offset3">
           <img src="./assets/photo/5.jpg" alt="1"> 
-          <div class="jumbotron">
-            <h3><div align="left"><i class="icon-stop"></i>부산.경남지역 전세버스 안내<br>
-            오전 6:30 부산지하철 1호선 범내골역 6번 출구 (부산상공회의소 앞)<br>
+          <div class="jumbotron" align="left" style="text-align: left">
+            <h3big>&#10048 부산.경남지역 전세버스 안내</h3big>
+            <h3>오전 6:30 부산지하철 1호선 범내골역 6번 출구 (부산상공회의소 앞)<br>
             오전 7:30 마산역 광장 아리랑관광호텔 앞<br>
             오전 6:30 통영시 무전동 롯데마트 정문<br>
             오전 7:30 진주시 서진주 IC 주차장<br><br>
-            2017.1.20.까지 승차예약 필수: HP 010-4585-6955 (정한식, 혼주)</div></h3>
+            &#10004; 2017.1.20.까지 승차예약 필수: &#9742 010-4585-6955 (정한식, 혼주)</h3>
           </div>
         </div>
       </div>
@@ -151,8 +190,9 @@
         <div class="span6 offset3">
           <img src="./assets/photo/6.jpg" alt="1"> 
           <div class="jumbotron">
-            <h3>살며 사랑하며 서로 기댈 수 있는 부부가 되겠습니다.<br><br>
-            감사합니다.</h3>
+            <h3a>살며 사랑하며 서로 기댈 수 있는 <h3b>부부</h3b>가 되겠습니다.</h3a><br>
+            <h1red>&#10086;</h1red><br>
+            <h3a>감사합니다.</h3a>
           </div>
         </div>
       </div>
